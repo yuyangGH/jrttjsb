@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        text-align: center;
+        display:flex;
+        height: 500px;
+    }
+    .bigDiv {
+        width: 800px;
+        height: 200px;
+        border: 1px solid red;
+        margin:0 auto;
+        display:flex;
+        align-self:center;
+    }
+
+    .smallDiv {
+        width: 200px;
+        height: 140px;
+        border: 1px solid red;
+        margin:0 auto;
+        align-self:center;
+    }
+}
+
+.divFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+}

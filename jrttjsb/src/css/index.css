@@ -1,0 +1,58 @@
+body {
+    background-color: yellow;
+    display: flex;
+}
+
+.mainDiv {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.itemDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.subItemDiv {
+    border: 1px solid red;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.imgDiv img {
+    width: 100%;
+    height: 200px;
+}
+
+.divFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .itemDiv {
+        flex-direction: column;
+    }
+}
